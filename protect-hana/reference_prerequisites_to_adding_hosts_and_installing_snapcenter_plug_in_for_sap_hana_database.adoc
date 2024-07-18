@@ -1,0 +1,100 @@
+---
+permalink: protect-hana/reference_prerequisites_to_adding_hosts_and_installing_snapcenter_plug_in_for_sap_hana_database.html 
+sidebar: sidebar 
+keywords: credentials 
+summary: Prima di aggiungere un host e installare i pacchetti plug-in, è necessario completare tutti i requisiti. Il plug-in SnapCenter per database SAP HANA è disponibile sia in ambienti Windows che Linux. 
+---
+= Prerequisiti per l'aggiunta di host e l'installazione del plug-in SnapCenter per il database SAP HANA
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Prima di aggiungere un host e installare i pacchetti plug-in, è necessario completare tutti i requisiti. Il plug-in SnapCenter per database SAP HANA è disponibile sia in ambienti Windows che Linux.
+
+* È necessario aver installato Java a 1.8 64 bit sull'host.
++
+
+NOTE: IBM Java non è supportato.
+
+* È necessario aver installato il terminale interattivo del database SAP HANA (client HDBSQL) sull'host.
+* Per Windows, il servizio di creazione del plug-in deve essere eseguito utilizzando l'utente di Windows "`LocalSystem`", che è il comportamento predefinito quando il plug-in per il database SAP HANA viene installato come amministratore di dominio.
+* Per Windows, le chiavi dell'archivio utente devono essere create come utente DI SISTEMA.
+* Quando si installa un plug-in su un host Windows, se si specifica una credenziale non integrata o se l'utente appartiene a un utente del gruppo di lavoro locale, è necessario disattivare il controllo dell'account utente sull'host. Il plug-in SnapCenter per Microsoft Windows verrà implementato per impostazione predefinita con il plug-in SAP HANA sugli host Windows.
+* Per l'host Linux, le chiavi HDB Secure User Store sono accessibili come utente del sistema operativo HDBSQL.
+* Il server SnapCenter deve avere accesso alla porta 8145 o alla porta personalizzata del plug-in per l'host del database SAP HANA.
+
+
+
+
+== Host Windows
+
+* È necessario disporre di un utente di dominio con privilegi di amministratore locale con autorizzazioni di accesso locale sull'host remoto.
+* Durante l'installazione del plug-in per database SAP HANA su un host Windows, il plug-in SnapCenter per Microsoft Windows viene installato automaticamente.
+* È necessario aver attivato la connessione SSH basata su password per l'utente root o non root.
+* È necessario aver installato Java a 1.8 64 bit sull'host Windows.
++
+http://www.java.com/en/download/manual.jsp["Download Java per tutti i sistemi operativi"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src=IMT["Tool di matrice di interoperabilità NetApp"]
+
+
+
+
+
+== Host Linux
+
+* È necessario aver attivato la connessione SSH basata su password per l'utente root o non root.
+* È necessario aver installato Java a 1.8 64 bit sull'host Linux.
++
+http://www.java.com/en/download/manual.jsp["Download Java per tutti i sistemi operativi"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src=IMT["Tool di matrice di interoperabilità NetApp"]
+
+* Per i database SAP HANA in esecuzione su un host Linux, durante l'installazione del plug-in per il database SAP HANA, il plug-in SnapCenter per UNIX viene installato automaticamente.
+* Si dovrebbe avere *bash* come shell predefinita per l'installazione del plug-in.
+
+
+
+
+== Comandi supplementari
+
+Per eseguire un comando supplementare sul plug-in SnapCenter per SAP HANA, è necessario includerlo nel `allowed_commands.config` file.
+
+`allowed_commands.config` Il file si trova nella sottodirectory "etc" della directory SnapCenter Plug-in for SAP HANA.
+
+.Host Windows
+Predefinito: `C:\Program Files\NetApp\SnapCenter\HANA\etc\allowed_commands.config`
+
+Percorso personalizzato: `<Custome_Directory>\NetApp\SnapCenter\HANA\etc\allowed_commands.config` Host Windows:
+
+.Host Linux
+Predefinito: `/opt/NetApp/snapcenter/scc/etc/allowed_commands.config`
+
+Percorso personalizzato: `<Custome_Directory>/NetApp/snapcenter/scc/etc/allowed_commands.config`
+
+Per consentire comandi supplementari sull'host del plug-in, aprire `allowed_commands.config` il file in un editor. Immettere ciascun comando su una riga separata. Non rileva la distinzione tra maiuscole e minuscole. Ad esempio,
+
+comando: mount
+
+comando: umount
+
+Assicurarsi di specificare il nome del percorso completo. Racchiudere il percorso tra virgolette (") se contiene spazi. Ad esempio,
+
+Comando: "C:\Program Files\NetApp\SnapCreator Commands\sdcli.exe"
+
+comando: myscript.bat
+
+Se il `allowed_commands.config` file non è presente, i comandi o l'esecuzione dello script vengono bloccati e il flusso di lavoro non riesce e viene visualizzato il seguente errore:
+
+"[/mnt/mount -a] esecuzione non consentita. Autorizzare aggiungendo il comando nel file %s sull'host del plugin."
+
+Se il comando o lo script non è presente in `allowed_commands.config`, l'esecuzione del comando o dello script viene bloccata e il flusso di lavoro non riesce con il seguente errore:
+
+"[/mnt/mount -a] esecuzione non consentita. Autorizzare aggiungendo il comando nel file %s sull'host del plugin."
+
+
+NOTE: Non utilizzare un carattere jolly (*) per consentire tutti i comandi.
