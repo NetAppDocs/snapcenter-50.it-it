@@ -2350,12 +2350,6 @@
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">Browser supportati</block>
   <block id="986c37480b1f1c2e443504b38b6361b4" category="list-text">Cromo</block>
   <block id="9b5c943f3d46ea12de31408c6912a1e9" category="paragraph">Se si utilizza la versione 66, potrebbe non essere possibile avviare l'interfaccia grafica di SnapCenter.</block>
-  <block id="ebe4f447bd3316e4f81ab2a6d2f26810" category="list-text">Internet Explorer</block>
-  <block id="74e84f9442fdb7717385ee092400869a" category="paragraph">L'interfaccia utente di SnapCenter non viene caricata correttamente se si utilizza IE 10 o versioni precedenti. È necessario eseguire l'aggiornamento a IE 11.</block>
-  <block id="8b45fc0c82a493bebd2ae705881299e0" category="list-text">È supportata solo la sicurezza di livello predefinito.</block>
-  <block id="8c39fdaac8e8c7ec5824fd1acda14c9a" category="paragraph">Le modifiche apportate alle impostazioni di protezione di Internet Explorer comportano problemi significativi di visualizzazione del browser.</block>
-  <block id="c5c74f2a0046f37ca93f6d8e3c775364" category="list-text">La visualizzazione della compatibilità di Internet Explorer deve essere disattivata.</block>
-  <block id="a5c41f715c1b8a880253846c025624e9" category="list-text">Microsoft Edge</block>
   <block id="0399ed9d4322925cd652419c6e80ccbb" category="paragraph">Per informazioni aggiornate sulle versioni supportate, vedere<block ref="6b3ef4eef08ac0feed960a06e1cce7e2" category="inline-link-rx"></block>.</block>
   <block id="ba7cbf773bd0f0004c4d97fba5034cdb" category="summary">È necessario conoscere il sistema di storage, le applicazioni e i database supportati.</block>
   <block id="1e1ed4854c77f284f3e97b0843b6e570" category="doc">Sistemi e applicazioni storage supportati</block>
@@ -9028,4 +9022,7 @@
   <block id="8693aef17f2d371968a29ad0e0dff726" category="sidebar">Workflow di upgrade</block>
   <block id="9e19caeb431a5e29a1a63e3cee4b36c9" category="inline-link">Data Protection di Oracle con ONTAP</block>
   <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
+  <block id="5438f8c09e5ea2be33bd2ce16c8b5123" category="admonition">A partire da SnapCenter 5,0, gli utenti amministratori dei vserver sono supportati solo con API REST. Se si desidera creare ruoli utilizzando un amministratore non vserver, è necessario utilizzare ZAPI.</block>
+  <block id="f5a551e6a3161ca6d9ee33d926d734d5" category="list-text">Microsoft Edge 110.0.1587.17 e versioni successive</block>
+  <block id="3955db71dd681bf23ceee85c567a0129" category="admonition">A partire da SnapCenter 5,0, gli utenti degli amministratori dei cluster sono supportati solo con API REST. Se si desidera creare ruoli utilizzando un amministratore non cluster, è necessario utilizzare ZAPI.</block>
 </blocks>
