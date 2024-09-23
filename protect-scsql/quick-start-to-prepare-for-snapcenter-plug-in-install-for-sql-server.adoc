@@ -202,5 +202,3 @@ La porta viene utilizzata per la comunicazione tra l'host del server SnapCenter,
 Si consiglia di disporre di un utente con privilegi di amministratore locale con autorizzazioni di accesso locale sull'host remoto. Se si gestiscono i nodi del cluster, è necessario disporre di un utente con privilegi amministrativi per tutti i nodi del cluster.
 
 Si consiglia di disporre di un utente con autorizzazioni sysadmin su SQL Server. Il plug-in utilizza Microsoft VDI Framework, che richiede l'accesso sysadmin.
-
-Se si utilizza SnapManager per Microsoft SQL Server e si desidera importare i dati da SnapManager per Microsoft SQL Server a SnapCenter, vedere link:../protect-scsql/concept_import_archived_backups_from_snapmanager_for_sql_to_snapcenter.html["Importare i backup archiviati"^]

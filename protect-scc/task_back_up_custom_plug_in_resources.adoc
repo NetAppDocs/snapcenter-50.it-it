@@ -17,4 +17,4 @@ Il seguente flusso di lavoro mostra la sequenza in cui è necessario eseguire l'
 
 image::../media/scc_backup_workflow.png[Workflow di backup]
 
-È inoltre possibile utilizzare i cmdlet PowerShell manualmente o negli script per eseguire operazioni di backup, ripristino e clonazione. Per informazioni dettagliate sui cmdlet di PowerShell, utilizzare la guida dei cmdlet di SnapCenter o vedere la https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["Guida di riferimento al cmdlet del software SnapCenter"]
+È inoltre possibile utilizzare i cmdlet PowerShell manualmente o negli script per eseguire operazioni di backup, ripristino e clonazione. Per informazioni dettagliate sui cmdlet di PowerShell, utilizzare la guida dei cmdlet di SnapCenter o vedere la https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmlll["Guida di riferimento al cmdlet del software SnapCenter"]

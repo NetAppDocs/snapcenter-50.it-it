@@ -16,7 +16,7 @@ Il flusso di lavoro dei cloni include la pianificazione, l'esecuzione dell'opera
 .Prima di iniziare
 È necessario aver preparato l'ambiente PowerShell per eseguire i cmdlet PowerShell.
 
-Per informazioni sui cmdlet di PowerShell, utilizzare la Guida dei cmdlet di SnapCenter o consultare la https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["Guida di riferimento al cmdlet del software SnapCenter"^].
+Per informazioni sui cmdlet di PowerShell, utilizzare la Guida dei cmdlet di SnapCenter o consultare la https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmlll["Guida di riferimento al cmdlet del software SnapCenter"^].
 
 .Fasi
 . Avviare una sessione di connessione con il server SnapCenter per un utente specifico utilizzando il cmdlet Open-SmConnection.
