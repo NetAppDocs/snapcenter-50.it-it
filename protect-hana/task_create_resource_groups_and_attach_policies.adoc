@@ -86,7 +86,7 @@ Selezionare questa opzione per evitare di forzare un punto di coerenza WAFL.
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["Una schermata delle opzioni per il backup dei gruppi di coerenza: Urgente, medio o rilassato."]
 
 .. Fare clic sulla freccia *Scripts* e immettere i comandi pre e post per le operazioni quiescenza, istantanea e inquiescenza. In caso di errore, è anche possibile inserire i pre-comandi da eseguire prima di uscire.
 .. Fare clic sulla freccia *Custom Configurations* (configurazioni personalizzate) e immettere le coppie chiave-valore personalizzate richieste per tutte le operazioni di protezione dei dati che utilizzano questa risorsa.

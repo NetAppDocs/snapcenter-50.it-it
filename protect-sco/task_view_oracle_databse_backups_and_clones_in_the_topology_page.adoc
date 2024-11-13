@@ -80,7 +80,7 @@ NOTE: Non è possibile rinominare o eliminare i backup presenti nello storage se
 ** Se il backup è stato catalogato utilizzando Oracle Recovery Manager (RMAN), non è possibile rinominare i backup catalogati.
 
 
-. Se si desidera eliminare un clone, selezionarlo dalla tabella, quindi fare clic su image:../media/delete_icon.gif[""].
+. Se si desidera eliminare un clone, selezionarlo dalla tabella, quindi fare clic su image:../media/delete_icon.gif["icona elimina"].
 
 
 Se il valore assegnato a SnapmirrorStatusUpdateWaitTime è inferiore, le copie di backup Mirror e Vault non vengono elencate nella pagina della topologia anche se i volumi di dati e log sono protetti correttamente. È necessario aumentare il valore assegnato a SnapmirrorStatusUpdateWaitTime utilizzando il cmdlet _set-SmConfigSettings_ PowerShell.

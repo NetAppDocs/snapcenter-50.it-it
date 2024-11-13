@@ -278,7 +278,7 @@ Durante la replica secondaria, il tempo di scadenza del SnapLock carica il tempo
 
 Fare clic sul pulsante *Aggiorna* nella pagina topologia per aggiornare il tempo di scadenza SnapLock secondario e primario recuperato da ONTAP.
 
-Vedere link:..protect-sce/task_view_exchange_backups_in_the_topology_page.html["Visualizzare i backup di Exchange nella pagina topologia"].
+Vedere link:task_view_exchange_backups_in_the_topology_page.html["Visualizzare i backup di Exchange nella pagina topologia"].
  a| 
 Selezionare questa opzione per conservare le copie mirror dei set di backup su un altro volume (SnapMirror).
 

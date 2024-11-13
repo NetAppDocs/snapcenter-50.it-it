@@ -15,7 +15,7 @@ Ogni release di SnapCenter contiene un pacchetto di plug-in e server SnapCenter 
 
 Il flusso di lavoro mostra le diverse attività richieste per aggiornare il server SnapCenter e i pacchetti plug-in.
 
-image::../media/upgrade_workflow.png[workflow di upgrade]
+image::../media/upgrade_workflow.gif[flusso di lavoro di aggiornamento di SnapCenter]
 
 
 

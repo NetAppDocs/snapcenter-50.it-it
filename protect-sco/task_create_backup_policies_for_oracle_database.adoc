@@ -126,7 +126,7 @@ Selezionare *Delete archive logs from the destinations welling are of backup*.
 
 |===
 +
-image:../media/sco_backuppolicy_prunning.gif[""]
+image:../media/sco_backuppolicy_prunning.gif["eliminazione dei criteri di backup"]
 
 
 
@@ -200,7 +200,7 @@ Quando SnapLock è configurato solo sul secondario da ONTAP noto come vault di S
 
 Per ulteriori informazioni sul vault di SnapLock, vedere https://docs.netapp.com/us-en/ontap/snaplock/commit-snapshot-copies-worm-concept.html["Assegnare le copie Snapshot a WORM su una destinazione del vault"]
 
-Vedere link:..protect-sco/task_view_oracle_databse_backups_and_clones_in_the_topology_page.html["Visualizzare i backup e i cloni dei database Oracle nella pagina topologia"].
+Vedere link:task_view_oracle_databse_backups_and_clones_in_the_topology_page.html["Visualizzare i backup e i cloni dei database Oracle nella pagina topologia"].
 
 
 
@@ -234,7 +234,7 @@ NOTE: È necessario configurare il criterio di conservazione SnapMirror in ONTAP
 È inoltre possibile specificare il valore di timeout dello script. Il valore predefinito è 60 secondi.
 
 +
-SnapCenter consente di utilizzare le variabili di ambiente predefinite quando si eseguono il prescrittivo e postscript. link:../protect-sco/predefined-environment-variables-prescript-postscript-backup.html["Scopri di più"^]
+SnapCenter consente di utilizzare le variabili di ambiente predefinite quando si eseguono il prescrittivo e postscript. link:predefined-environment-variables-prescript-postscript-backup.html["Scopri di più"^]
 
 . Nella pagina verifica, attenersi alla seguente procedura:
 +

@@ -278,7 +278,7 @@ Questa opzione deve essere abilitata per SnapMirror Business Continuity (SM-BC) 
 Durante la replica secondaria, il tempo di scadenza del SnapLock carica il tempo di scadenza del SnapLock primario. Fare clic sul pulsante *Aggiorna* nella pagina topologia per aggiornare il tempo di scadenza SnapLock secondario e primario recuperato da ONTAP.
 
 +
-Vedere link:..protect-scsql/task_view_sql_server_backups_and_clones_in_the_topology_page.html["Visualizzare i backup e i cloni di SQL Server nella pagina topologia"].
+Vedere link:task_view_sql_server_backups_and_clones_in_the_topology_page.html["Visualizzare i backup e i cloni di SQL Server nella pagina topologia"].
 
 
 
@@ -298,7 +298,7 @@ Quando SnapLock è configurato solo sul secondario da ONTAP noto come vault di S
 Per ulteriori informazioni sul vault di SnapLock, vedere https://docs.netapp.com/us-en/ontap/snaplock/commit-snapshot-copies-worm-concept.html["Assegnare le copie Snapshot a WORM su una destinazione del vault"]
 
 +
-Vedere link:..protect-scsql/task_view_sql_server_backups_and_clones_in_the_topology_page.html["Visualizzare i backup e i cloni di SQL Server nella pagina topologia"].
+Vedere link:task_view_sql_server_backups_and_clones_in_the_topology_page.html["Visualizzare i backup e i cloni di SQL Server nella pagina topologia"].
 
 
 

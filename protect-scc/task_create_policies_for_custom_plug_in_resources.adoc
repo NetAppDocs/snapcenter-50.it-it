@@ -119,7 +119,7 @@ Durante la replica secondaria, il tempo di scadenza del SnapLock carica il tempo
 
 Fare clic sul pulsante *Aggiorna* nella pagina topologia per aggiornare il tempo di scadenza SnapLock secondario e primario recuperato da ONTAP.
 
-Vedere link:protect-scc/task_view_custom_plug_in_resource_backups_and_clones_in_the_topology_page.html["Visualizza i backup e i cloni personalizzati relativi alle risorse plug-in nella pagina topologia"].
+Vedere link:task_view_custom_plug_in_resource_backups_and_clones_in_the_topology_page.html["Visualizza i backup e i cloni personalizzati relativi alle risorse plug-in nella pagina topologia"].
 
 
 
@@ -134,7 +134,7 @@ Quando SnapLock è configurato solo sul secondario da ONTAP noto come vault di S
 
 Per ulteriori informazioni sul vault di SnapLock, vedere commit Snapshot to WORM su una destinazione del vault
 
-Vedere link:protect-scc/task_view_custom_plug_in_resource_backups_and_clones_in_the_topology_page.html["Visualizza i backup e i cloni personalizzati relativi alle risorse plug-in nella pagina topologia"].
+Vedere link:task_view_custom_plug_in_resource_backups_and_clones_in_the_topology_page.html["Visualizza i backup e i cloni personalizzati relativi alle risorse plug-in nella pagina topologia"].
 
 
 
