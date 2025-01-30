@@ -38,13 +38,7 @@ Per ulteriori informazioni, vedere link:../protect-sco/reference_prerequisites_f
 ** Se si dispone di più percorsi di dati (LIF) in SVM, SnapCenter sceglie il percorso di dati appropriato per il montaggio del volume clonato NFS. Tuttavia, se si desidera specificare un percorso dati specifico (LIF), è necessario eseguire la CLI Set-SvmPreferredDataPath. La guida di riferimento ai comandi contiene ulteriori informazioni.
 
 
-* Se si dispone di database Oracle su ambienti SAN, assicurarsi che l'ambiente SAN sia configurato in base ai consigli indicati nelle seguenti guide:
-+
-** https://library.netapp.com/ecm/ecm_download_file/ECMLP2547957["Impostazioni host consigliate per le utility host unificate Linux"^]
-** https://library.netapp.com/ecm/ecm_download_file/ECMLP2547958["Utilizzo di host Linux con storage ONTAP"^]
-** https://library.netapp.com/ecm/ecm_download_file/ECMP1119218["Impostazioni host interessate dalle utility host AIX"^]
-
-
+* Se si dispone di database Oracle in ambienti SAN, accertarsi che l'ambiente SAN sia configurato come indicato nella https://library.netapp.com/ecm/ecm_download_file/ECMP1119218["Impostazioni host interessate dalle utility host AIX"^].
 * Se si dispone di database Oracle su LVM nei sistemi operativi Oracle Linux o RHEL, installare la versione più recente di Logical Volume Management (LVM).
 * Se si utilizza SnapManager per Oracle e si desidera migrare al plug-in SnapCenter per database Oracle, è possibile migrare i profili in policy e gruppi di risorse di SnapCenter utilizzando il comando sccli sc-migra.
 * Configurare SnapMirror e SnapVault su ONTAP, se si desidera eseguire la replica del backup
