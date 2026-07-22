@@ -39,6 +39,7 @@ Gli altri scenari supportati sono:
 
 
 
+[[update-the-backups-of-the-primary-storage]]
 == Aggiornare i backup dello storage primario
 
 Quando lo storage viene tech refresh, è necessario eseguire l'API o il cmdlet per l'aggiornamento dei vecchi backup in SnapCenter con i nuovi dettagli dello storage.
@@ -110,6 +111,7 @@ In questo modo verrà eseguito il controllo dell'esistenza dello snapshot sul nu
 
 
 
+[[update-the-backups-of-the-secondary-storage]]
 == Aggiornare i backup dello storage secondario
 
 Quando lo storage viene tech refresh, è necessario eseguire l'API o il cmdlet per l'aggiornamento dei vecchi backup in SnapCenter con i nuovi dettagli dello storage.

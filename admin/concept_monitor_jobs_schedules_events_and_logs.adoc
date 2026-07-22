@@ -15,6 +15,7 @@ summary: 'È possibile monitorare l"avanzamento dei lavori, ottenere informazion
 
 
 
+[[monitor-jobs]]
 == Monitorare i lavori
 
 È possibile visualizzare informazioni sui processi di backup, clonazione, ripristino e verifica di SnapCenter. È possibile filtrare questa visualizzazione in base alla data di inizio e di fine, al tipo di processo, al gruppo di risorse, alla policy o al plug-in SnapCenter. È inoltre possibile ottenere ulteriori dettagli e file di registro per i lavori specificati.
@@ -33,6 +34,7 @@ NOTE: È possibile monitorare solo i lavori creati e rilevanti per l'utente, a m
 
 
 
+[[monitor-schedules]]
 == Monitorare le pianificazioni
 
 È possibile visualizzare le pianificazioni correnti per determinare quando l'operazione viene avviata, quando è stata eseguita l'ultima volta e quando viene eseguita successivamente. È inoltre possibile determinare l'host su cui viene eseguita l'operazione, insieme alle informazioni sul gruppo di risorse e sui criteri dell'operazione.
@@ -47,6 +49,7 @@ NOTE: È possibile monitorare solo i lavori creati e rilevanti per l'utente, a m
 
 
 
+[[monitor-events]]
 == Monitorare gli eventi
 
 È possibile visualizzare un elenco di eventi SnapCenter nel sistema, ad esempio quando un utente crea un gruppo di risorse o quando il sistema avvia attività, ad esempio la creazione di un backup pianificato. È possibile visualizzare gli eventi per determinare se è in corso un'operazione come un'operazione di backup o ripristino.
@@ -65,6 +68,7 @@ Tutte le informazioni sul lavoro vengono visualizzate nella pagina Eventi. Ad es
 
 
 
+[[monitor-logs]]
 == Registri di monitoraggio
 
 È possibile visualizzare e scaricare i log del server SnapCenter, i log dell'agente host SnapCenter e i log dei plug-in. È possibile visualizzare i registri per agevolare la risoluzione dei problemi.
@@ -115,6 +119,7 @@ NOTE: Per accedere alle informazioni di integrità o configurazione al termine d
 
 
 
+[[remove-jobs-and-logs-from-snapcenter]]
 == Rimuovere job e log da SnapCenter
 
 È possibile rimuovere i log e i processi di backup, ripristino, clonazione e verifica da SnapCenter. SnapCenter memorizza i log dei processi riusciti e non riusciti a tempo indeterminato, a meno che non vengano rimossi. Potrebbe essere necessario rimuoverli per riempire lo storage.

@@ -125,6 +125,7 @@ Tutti i file system montati sull'host vengono automaticamente rilevati e visuali
 
 
 
+[[monitor-installation-status]]
 == Monitorare lo stato dell'installazione
 
 È possibile monitorare lo stato di avanzamento dell'installazione del pacchetto plug-in di SnapCenter utilizzando la pagina lavori. Potrebbe essere necessario controllare lo stato di avanzamento dell'installazione per determinare quando è completa o se si è verificato un problema.

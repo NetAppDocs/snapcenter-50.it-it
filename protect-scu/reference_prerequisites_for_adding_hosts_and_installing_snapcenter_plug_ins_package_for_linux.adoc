@@ -32,6 +32,7 @@ Per informazioni su come scaricare JAVA, vedere: http://www.java.com/en/download
 
 
 
+[[linux-host-requirements]]
 == Requisiti degli host Linux
 
 Assicurarsi che l'host soddisfi i requisiti prima di installare il pacchetto di plug-in SnapCenter per Linux.

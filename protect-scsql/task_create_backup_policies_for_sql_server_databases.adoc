@@ -62,6 +62,7 @@ NOTE: Le impostazioni SnapLock primarie vengono gestite nel criterio di backup S
 
 
 
+[[step-1-create-policy-name]]
 == Fase 1: Creazione del nome della policy
 
 . Nel riquadro di navigazione a sinistra, selezionare *Impostazioni*.
@@ -72,6 +73,7 @@ NOTE: Le impostazioni SnapLock primarie vengono gestite nel criterio di backup S
 
 
 
+[[step-2-configure-backup-options]]
 == Fase 2: Configurare le opzioni di backup
 
 . Scegliere il tipo di backup
@@ -164,6 +166,7 @@ NOTE: Se sono previste le 2:00, la programmazione non verrà attivata durante l'
 
 
 
+[[step-3-configure-retention-settings]]
 == Fase 3: Configurare le impostazioni di conservazione
 
 Nella pagina di conservazione, a seconda del tipo di backup selezionato nella pagina del tipo di backup, eseguire una o più delle seguenti operazioni:
@@ -259,6 +262,7 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/Sn
 
 
 
+[[step-4-configure-replication-settings]]
 == Fase 4: Configurare le impostazioni di replica
 
 . Nella pagina Replication (Replica), specificare la replica nel sistema di storage secondario:
@@ -323,6 +327,7 @@ NOTE: Se è stato selezionato *Update SnapMirror dopo la creazione di una copia 
 ====
 
 
+[[step-5-configure-script-settings]]
 == Fase 5: Configurare le impostazioni dello script
 
 . Nella pagina script, immettere il percorso e gli argomenti del prespt o del postscript che devono essere eseguiti rispettivamente prima o dopo l'operazione di backup.
@@ -341,6 +346,7 @@ NOTE: È necessario configurare il criterio di conservazione SnapMirror in ONTAP
 
 
 
+[[step-6-configure-verification-settings]]
 == Fase 6: Configurare le impostazioni di verifica
 
 Nella pagina verifica, attenersi alla seguente procedura:
@@ -385,6 +391,7 @@ NOTE: Il percorso prescripts o postscripts non deve includere dischi o condivisi
 
 
 
+[[step-7-review-summary]]
 == Fase 7: Riepilogo
 
 . Esaminare il riepilogo, quindi selezionare *fine*.

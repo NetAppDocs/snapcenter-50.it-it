@@ -26,10 +26,12 @@ Il plug-in deve essere eseguibile
 
 
 
+[[general-plug-in-handling]]
 == Gestione generale dei plug-in
 
 
 
+[[logging-error-messages]]
 === Registrazione dei messaggi di errore
 
 Ogni operazione può inviare messaggi al server, che visualizza e memorizza il contenuto. Un messaggio contiene il livello del messaggio, un indicatore data e ora e un testo del messaggio. Sono supportati i messaggi multilinea.
@@ -42,6 +44,7 @@ SC_MESSAGE#<level>#<timestamp>#<message>
 ....
 
 
+[[using-plug-in-stubs]]
 === Utilizzo di stub plug-in
 
 I plug-in SnapCenter devono implementare i plug-in stub. Si tratta di metodi richiamati dal server SnapCenter in base a un flusso di lavoro specifico.
@@ -105,6 +108,7 @@ Questo stub è responsabile dell'esecuzione di tutte le azioni di ripristino. Ci
 |===
 
 
+[[examples]]
 === Esempi
 
 

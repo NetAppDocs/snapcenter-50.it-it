@@ -137,6 +137,7 @@ Per ulteriori informazioni sul mirror della sincronizzazione, fare riferimento a
 
 
 
+[[snapcenter-architecture]]
 == Architettura SnapCenter
 
 La piattaforma SnapCenter è basata su un'architettura a più livelli che include un server di gestione centralizzato (server SnapCenter) e un host plug-in SnapCenter.
@@ -147,6 +148,7 @@ image::../media/snapcenter_architecture.gif[architettura SnapCenter]
 
 
 
+[[snapcenter-components]]
 == Componenti SnapCenter
 
 SnapCenter è costituito dal server SnapCenter e dai plug-in SnapCenter. Installare solo i plug-in appropriati per i dati che si desidera proteggere.
@@ -180,6 +182,7 @@ Il plug-in SnapCenter per VMware vSphere, in precedenza NetApp Data Broker, è u
 
 
 
+[[snapcenter-server]]
 == Server SnapCenter
 
 Il server SnapCenter include un server Web, un'interfaccia utente centralizzata basata su HTML5, cmdlet PowerShell, API REST e il repository SnapCenter.
@@ -205,6 +208,7 @@ NOTE: SnapCenter supporta lo spazio dei nomi disgiunto per gli host Windows. Se 
 
 
 
+[[snapcenter-plug-ins]]
 == Plug-in SnapCenter
 
 Ogni plug-in SnapCenter supporta ambienti, database e applicazioni specifici.
@@ -295,6 +299,7 @@ Per gli utenti di SnapCenter 4.1.1, la documentazione del plug-in SnapCenter per
 
 
 
+[[snapcenter-plug-in-for-microsoft-sql-server-features]]
 === Plug-in SnapCenter per le funzionalità di Microsoft SQL Server
 
 * Automatizza le operazioni di backup, ripristino e clonazione application-aware per i database Microsoft SQL Server nel tuo ambiente SnapCenter.
@@ -305,6 +310,7 @@ Per gli utenti di SnapCenter 4.1.1, la documentazione del plug-in SnapCenter per
 
 
 
+[[snapcenter-plug-in-for-microsoft-windows-features]]
 === Plug-in SnapCenter per le funzionalità di Microsoft Windows
 
 * Abilita la protezione dei dati application-aware per altri plug-in in in esecuzione negli host Windows nell'ambiente SnapCenter
@@ -318,6 +324,7 @@ NOTE: Il plug-in per Windows fornisce condivisioni SMB e file system Windows su 
 
 
 
+[[snapcenter-plug-in-for-microsoft-exchange-server-features]]
 === Plug-in SnapCenter per le funzionalità di Microsoft Exchange Server
 
 * Automatizza le operazioni di backup e ripristino application-aware per i database Microsoft Exchange Server e i gruppi di disponibilità dei database (DAG) nel tuo ambiente SnapCenter
@@ -326,6 +333,7 @@ NOTE: Il plug-in per Windows fornisce condivisioni SMB e file system Windows su 
 
 
 
+[[snapcenter-plug-in-for-oracle-database-features]]
 === Plug-in SnapCenter per le funzionalità di database Oracle
 
 * Automatizza backup, ripristino, ripristino, verifica, montaggio e ripristino basati sulle applicazioni Smontare e clonare le operazioni per i database Oracle nel tuo ambiente SnapCenter
@@ -334,6 +342,7 @@ NOTE: Il plug-in per Windows fornisce condivisioni SMB e file system Windows su 
 
 
 
+[[snapcenter-plug-in-for-unix-features]]
 === Funzionalità del plug-in SnapCenter per UNIX
 
 * Consente al plug-in per database Oracle di eseguire operazioni di protezione dei dati sui database Oracle gestendo lo stack di storage host sottostante sui sistemi Linux o AIX
@@ -349,6 +358,7 @@ Sono supportati i dispositivi nativi SAN, i file system e i layout LVM costruiti
 
 
 
+[[snapcenter-plug-in-for-sap-hana-database-features]]
 === Plug-in SnapCenter per le funzionalità del database SAP HANA
 
 * Automatizza il backup, il ripristino e la clonazione application-aware dei database SAP HANA nel tuo ambiente SnapCenter
@@ -356,6 +366,7 @@ Sono supportati i dispositivi nativi SAN, i file system e i layout LVM costruiti
 
 
 
+[[snapcenter-custom-plug-ins-features]]
 === Funzionalità dei plug-in personalizzati di SnapCenter
 
 * Supporta plug-in personalizzati per gestire applicazioni o database non supportati da altri plug-in SnapCenter. I plug-in personalizzati non vengono forniti come parte dell'installazione di SnapCenter.
@@ -372,6 +383,7 @@ Per ulteriori informazioni, vedere link:../protect-scc/concept_develop_a_plug_in
 
 
 
+[[snapcenter-repository]]
 == Repository SnapCenter
 
 Il repository SnapCenter, a volte chiamato database NSM, memorizza informazioni e metadati per ogni operazione SnapCenter.

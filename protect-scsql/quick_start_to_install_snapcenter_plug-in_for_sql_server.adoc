@@ -15,10 +15,12 @@ Fornisce una serie di istruzioni di installazione per l'installazione del server
 
 
 
+[[prepare-for-installation]]
 == Preparazione per l'installazione
 
 
 
+[[domain-and-workgroup-requirements]]
 === Requisiti di dominio e gruppo di lavoro
 
 Il server SnapCenter può essere installato su sistemi che si trovano in un dominio o in un gruppo di lavoro.
@@ -29,6 +31,7 @@ Se si utilizzano gruppi di lavoro, è necessario utilizzare un account locale co
 
 
 
+[[license-requirements]]
 === Requisiti di licenza
 
 Il tipo di licenze installate dipende dall'ambiente in uso.
@@ -83,6 +86,7 @@ NOTE: Si consiglia, ma non è necessario, di aggiungere le licenze standard di S
 |===
 
 
+[[host-and-port-requirements]]
 === Requisiti di host e porte
 
 Per i requisiti minimi di ONTAP e plug-in delle applicazioni, vedere https://imt.netapp.com/matrix/imt.jsp?components=117008;&solution=1259&isHWU&src=IMT["Tool di matrice di interoperabilità"^].
@@ -201,6 +205,7 @@ La porta viene utilizzata per la comunicazione tra l'host del server SnapCenter,
 |===
 
 
+[[snapcenter-plug-in-for-microsoft-sql-server-requirements]]
 === Requisiti del plug-in SnapCenter per Microsoft SQL Server
 
 Si consiglia di disporre di un utente con privilegi di amministratore locale con autorizzazioni di accesso locale sull'host remoto. Se si gestiscono i nodi del cluster, è necessario disporre di un utente con privilegi amministrativi per tutti i nodi del cluster.
@@ -209,10 +214,12 @@ Si consiglia di disporre di un utente con autorizzazioni sysadmin su SQL Server.
 
 
 
+[[install-snapcenter-server]]
 == Installare il server SnapCenter
 
 
 
+[[step-1-download-and-install-snapcenter-server]]
 === Fase 1: Scaricare e installare il server SnapCenter
 
 . Scaricare il pacchetto di installazione del server SnapCenter dal https://mysupport.netapp.com/site/products/all/details/snapcenter/downloads-tab["Sito di supporto NetApp"^] e fare doppio clic sul file exe.
@@ -232,6 +239,7 @@ NOTE: Il carattere speciale "%" non è supportato nel percorso personalizzato pe
 
 
 
+[[step-2-log-in-to-snapcenter]]
 === Fase 2: Accedere a SnapCenter
 
 . Avviare SnapCenter da un collegamento sul desktop host o dall'URL fornito dall'installazione (_\https://server:8146_ per la porta predefinita 8146 in cui è installato il server SnapCenter).
@@ -247,6 +255,7 @@ Per un formato nome utente admin locale incorporato, utilizzare _<username>_.
 
 
 
+[[step-3-add-a-snapcenter-standard-controller-based-license]]
 === Fase 3: Aggiunta di una licenza basata su controller standard SnapCenter
 
 . Accedere al controller utilizzando la riga di comando ONTAP e digitare:
@@ -261,6 +270,7 @@ Per un formato nome utente admin locale incorporato, utilizzare _<username>_.
 
 
 
+[[step-4-add-a-snapcenter-capacity-based-license]]
 === Fase 4: Aggiunta di una licenza SnapCenter basata sulla capacità
 
 . Nel riquadro sinistro della GUI di SnapCenter, fare clic su *Impostazioni > Software*, quindi nella sezione licenza fare clic su *+*.
@@ -276,6 +286,7 @@ Per un formato nome utente admin locale incorporato, utilizzare _<username>_.
 
 
 
+[[step-5-set-up-storage-system-connections]]
 === Fase 5: Configurare le connessioni del sistema di storage
 
 . Nel riquadro di sinistra, fare clic su *Storage Systems > New* (sistemi storage > nuovo).
@@ -292,10 +303,12 @@ Per un formato nome utente admin locale incorporato, utilizzare _<username>_.
 
 
 
+[[install-the-plug-in-for-microsoft-sql-server]]
 == Installare il plug-in per Microsoft SQL Server
 
 
 
+[[step-1-set-up-run-as-credentials-to-install-the-plug-in-for-microsoft-sql-server]]
 === Fase 1: Impostare le credenziali Run as per installare il plug-in per Microsoft SQL Server
 
 . Nel riquadro di sinistra, fare clic su *Impostazioni > credenziali > nuovo*.
@@ -310,6 +323,7 @@ Per un formato nome utente admin locale incorporato, utilizzare _<username>_.
 
 
 
+[[step-2-add-a-host-and-install-the-plug-in-for-microsoft-sql-server]]
 === Fase 2: Aggiungere un host e installare il plug-in per Microsoft SQL Server
 
 . Nel riquadro sinistro della GUI di SnapCenter, fare clic su *host > host gestiti > Aggiungi*.

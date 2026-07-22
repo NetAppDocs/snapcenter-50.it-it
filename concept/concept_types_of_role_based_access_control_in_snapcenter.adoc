@@ -28,10 +28,12 @@ SnapCenter utilizza i seguenti tipi di controllo degli accessi in base al ruolo:
 
 
 
+[[snapcenter-rbac]]
 == SnapCenter RBAC
 
 
 
+[[roles-and-permissions]]
 === Ruoli e autorizzazioni
 
 SnapCenter viene fornito con ruoli predefiniti con autorizzazioni già assegnate. È possibile assegnare utenti o gruppi di utenti a questi ruoli. È inoltre possibile creare nuovi ruoli e gestire autorizzazioni e utenti.
@@ -47,12 +49,14 @@ NOTE: Se si crea un ruolo personalizzato, deve contenere tutte le autorizzazioni
 
 
 
+[[authentication]]
 === Autenticazione
 
 Gli utenti devono fornire l'autenticazione durante l'accesso, tramite l'interfaccia grafica utente (GUI) o utilizzando i cmdlet PowerShell. Se gli utenti sono membri di più ruoli, dopo aver immesso le credenziali di accesso, viene richiesto di specificare il ruolo che si desidera utilizzare. Gli utenti devono inoltre fornire l'autenticazione per eseguire le API.
 
 
 
+[[application-level-rbac]]
 == RBAC a livello applicativo
 
 SnapCenter utilizza le credenziali per verificare che gli utenti SnapCenter autorizzati dispongano anche delle autorizzazioni a livello di applicazione.
@@ -63,6 +67,7 @@ Allo stesso modo, se si desidera eseguire operazioni di protezione dei dati su u
 
 
 
+[[snapcenter-plug-in-for-vmware-vsphere-rbac]]
 == Plug-in SnapCenter per VMware vSphere RBAC
 
 Se si utilizza il plug-in VMware di SnapCenter per la protezione dei dati coerente con le macchine virtuali, il server vCenter fornisce un livello aggiuntivo di RBAC. Il plug-in VMware di SnapCenter supporta sia vCenter Server RBAC che Data ONTAP RBAC.
@@ -71,6 +76,7 @@ Per informazioni, vedere https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/
 
 
 
+[[ontap-permissions]]
 == Permessi ONTAP
 
 È necessario creare un account vsadmin con le autorizzazioni necessarie per accedere al sistema di storage.

@@ -15,6 +15,7 @@ Fornisce una serie di istruzioni per la preparazione dell'installazione del serv
 
 
 
+[[domain-and-workgroup-requirements]]
 == Requisiti di dominio e gruppo di lavoro
 
 Il server SnapCenter può essere installato su sistemi che si trovano in un dominio o in un gruppo di lavoro.
@@ -25,6 +26,7 @@ Se si utilizzano gruppi di lavoro, è necessario utilizzare un account locale co
 
 
 
+[[license-requirements]]
 == Requisiti di licenza
 
 Il tipo di licenze installate dipende dall'ambiente in uso.
@@ -79,6 +81,7 @@ NOTE: Si consiglia, ma non è necessario, di aggiungere le licenze standard di S
 |===
 
 
+[[host-and-port-requirements]]
 == Requisiti di host e porte
 
 Per i requisiti minimi di ONTAP e plug-in delle applicazioni, vedere https://imt.netapp.com/matrix/imt.jsp?components=117008;&solution=1259&isHWU&src=IMT["Tool di matrice di interoperabilità"^].
@@ -197,6 +200,7 @@ La porta viene utilizzata per la comunicazione tra l'host del server SnapCenter,
 |===
 
 
+[[snapcenter-plug-in-for-microsoft-sql-server-requirements]]
 == Requisiti del plug-in SnapCenter per Microsoft SQL Server
 
 Si consiglia di disporre di un utente con privilegi di amministratore locale con autorizzazioni di accesso locale sull'host remoto. Se si gestiscono i nodi del cluster, è necessario disporre di un utente con privilegi amministrativi per tutti i nodi del cluster.

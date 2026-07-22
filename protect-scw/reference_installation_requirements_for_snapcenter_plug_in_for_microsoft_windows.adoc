@@ -26,6 +26,7 @@ Il ruolo di amministratore di SnapCenter deve disporre dei privilegi di amminist
 
 
 
+[[host-requirements-to-install-snapcenter-plug-ins-package-for-windows]]
 == Requisiti dell'host per installare il pacchetto di plug-in SnapCenter per Windows
 
 Prima di installare il pacchetto di plug-in SnapCenter per Windows, è necessario conoscere alcuni requisiti di base relativi allo spazio del sistema host e al dimensionamento.
@@ -75,6 +76,7 @@ Per . Per informazioni specifiche sulla risoluzione dei problemi, vedere https:/
 |===
 
 
+[[set-up-your-credentials-for-the-plug-in-for-windows]]
 == Impostare le credenziali per il plug-in per Windows
 
 SnapCenter utilizza le credenziali per autenticare gli utenti per le operazioni SnapCenter. È necessario creare credenziali per l'installazione dei plug-in di SnapCenter e credenziali aggiuntive per l'esecuzione delle operazioni di protezione dei dati sui file system di Windows.
@@ -144,6 +146,7 @@ Al termine dell'impostazione delle credenziali, è possibile assegnare la manute
 
 
 
+[[configure-gmsa-on-windows-server-2012-or-later]]
 == Configurare gMSA su Windows Server 2012 o versione successiva
 
 Windows Server 2012 o versione successiva consente di creare un account di servizio gestito di gruppo (gMSA) che fornisce la gestione automatica delle password dell'account di servizio da un account di dominio gestito.

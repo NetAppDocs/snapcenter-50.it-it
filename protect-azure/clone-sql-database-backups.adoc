@@ -43,6 +43,7 @@ Se non viene specificata la QOS per i volumi clonati, verrà utilizzata la QOS d
 
 
 
+[[perform-clone-lifecycle]]
 == Eseguire il ciclo di vita del clone
 
 Utilizzando SnapCenter, è possibile creare cloni da un gruppo di risorse o da un database. È possibile eseguire cloni on-demand o pianificare operazioni ricorrenti di cloni di un gruppo di risorse o di un database. Se si clonano periodicamente un backup, è possibile utilizzare il clone per sviluppare applicazioni, popolare i dati o ripristinare i dati.

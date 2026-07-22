@@ -17,6 +17,7 @@ I LUN sono l'unità di storage di base in una configurazione SAN. L'host Windows
 
 
 
+[[establish-an-iscsi-session]]
 == Stabilire una sessione iSCSI
 
 Se si utilizza iSCSI per connettersi a un LUN, è necessario stabilire una sessione iSCSI prima di creare il LUN per abilitare la comunicazione.
@@ -91,6 +92,7 @@ SnapCenter stabilisce la sessione iSCSI.
 
 
 
+[[disconnect-an-iscsi-session]]
 == Disconnettere una sessione iSCSI
 
 A volte, potrebbe essere necessario disconnettere una sessione iSCSI da una destinazione con cui si hanno più sessioni.

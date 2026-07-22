@@ -26,6 +26,7 @@ summary: È necessario configurare i certificati root o intermedi in SPL trust-s
 
 
 
+[[configure-ca-signed-key-pair-to-spl-trust-store]]
 == Configurare la coppia di chiavi con firma CA nell'archivio di trust SPL
 
 È necessario configurare la coppia di chiavi firmate della CA in SPL trust-store.

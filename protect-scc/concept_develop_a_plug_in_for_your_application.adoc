@@ -25,6 +25,7 @@ Per utilizzare plug-in personalizzati in SnapCenter, è necessario eseguire le s
 
 
 
+[[generic-plug-in-handling-in-all-api-calls]]
 == Gestione di plug-in generici in tutte le chiamate API
 
 Per ogni chiamata API, utilizzare le seguenti informazioni:
@@ -37,6 +38,7 @@ Per ogni chiamata API, utilizzare le seguenti informazioni:
 
 
 
+[[use-plug-in-parameters]]
 === Utilizzare i parametri del plug-in
 
 Un insieme di parametri viene passato al plug-in come parte di ogni chiamata API effettuata. La seguente tabella elenca le informazioni specifiche per i parametri.
@@ -97,6 +99,7 @@ Ogni valore della chiave personalizzata a livello di risorsa è disponibile per 
 |===
 
 
+[[use-exit-codes]]
 === Utilizzare i codici di uscita
 
 Il plug-in restituisce lo stato dell'operazione all'host mediante i codici di uscita. Ciascun codice ha un significato specifico e il plug-in utilizza il codice di uscita corretto per indicare lo stesso.
@@ -143,6 +146,7 @@ Operazione non riuscita, eseguire senza problemi e uscire.
 |===
 
 
+[[log-error-messages]]
 === Registrare i messaggi di errore
 
 I messaggi di errore vengono passati dal plug-in al server SnapCenter. Il messaggio include il messaggio, il livello di registrazione e l'indicazione dell'ora.
@@ -189,6 +193,7 @@ messaggio di traccia
 |===
 
 
+[[preserve-data-consistency]]
 === Preservare la coerenza dei dati
 
 I plug-in personalizzati mantengono i dati tra le operazioni della stessa esecuzione del workflow. Ad esempio, un plug-in può memorizzare i dati alla fine di quiesce, che possono essere utilizzati durante un'operazione senza problemi.

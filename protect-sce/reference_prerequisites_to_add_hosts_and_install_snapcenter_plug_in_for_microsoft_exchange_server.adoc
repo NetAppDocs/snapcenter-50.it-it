@@ -44,6 +44,7 @@ Per identificare l'intervallo di porte, eseguire i seguenti comandi:
 ====
 
 
+[[host-requirements-to-install-snapcenter-plug-ins-package-for-windows]]
 == Requisiti dell'host per installare il pacchetto di plug-in SnapCenter per Windows
 
 Prima di installare il pacchetto di plug-in SnapCenter per Windows, è necessario conoscere alcuni requisiti di base relativi allo spazio del sistema host e al dimensionamento.
@@ -93,6 +94,7 @@ Per . Per informazioni specifiche sulla risoluzione dei problemi, vedere https:/
 |===
 
 
+[[exchange-server-privileges-required]]
 == Privilegi di Exchange Server richiesti
 
 Per consentire a SnapCenter di aggiungere Exchange Server o DAG e installare il plug-in SnapCenter per Microsoft Exchange Server su un host o DAG, è necessario configurare SnapCenter con le credenziali per un utente con un set minimo di privilegi e autorizzazioni.
@@ -128,6 +130,7 @@ Per consentire a SnapCenter di aggiungere Exchange Server o DAG e installare il 
 
 
 
+[[host-requirements-to-install-snapcenter-plug-ins-package-for-windows]]
 == Requisiti dell'host per installare il pacchetto di plug-in SnapCenter per Windows
 
 Prima di installare il pacchetto di plug-in SnapCenter per Windows, è necessario conoscere alcuni requisiti di base relativi allo spazio del sistema host e al dimensionamento.

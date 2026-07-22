@@ -15,6 +15,7 @@ Il RBAC (Role-Based Access Control) di SnapCenter consente di creare ruoli e ass
 
 
 
+[[snapcenter-roles]]
 == Ruoli di SnapCenter
 
 SnapCenter viene fornito con i seguenti ruoli predefiniti. È possibile assegnare utenti e gruppi a questi ruoli o creare nuovi ruoli.
@@ -29,6 +30,7 @@ Quando si assegna un ruolo a un utente, nella pagina lavori sono visibili solo i
 
 
 
+[[snapcenter-plug-in-for-vmware-vsphere-roles]]
 == Plug-in SnapCenter per i ruoli di VMware vSphere
 
 Per la gestione della protezione dei dati coerente con le macchine virtuali di macchine virtuali, VMDK e datastore, i seguenti ruoli vengono creati in vCenter dal plug-in SnapCenter per VMware vSphere:
@@ -49,6 +51,7 @@ Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/sc-plugin-vmwar
 |===
 
 
+[[snapcenter-permissions]]
 == Permessi SnapCenter
 
 SnapCenter fornisce le seguenti autorizzazioni:

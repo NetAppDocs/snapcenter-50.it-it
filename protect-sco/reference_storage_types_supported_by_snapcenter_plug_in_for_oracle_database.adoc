@@ -17,6 +17,7 @@ SnapCenter non supporta il provisioning dello storage per Linux e AIX.
 
 
 
+[[storage-types-supported-on-linux]]
 == Tipi di storage supportati su Linux
 
 La tabella seguente elenca i tipi di storage supportati su Linux.
@@ -50,6 +51,7 @@ VMware ESXi
 |===
 
 
+[[storage-types-supported-on-aix]]
 == Tipi di storage supportati su AIX
 
 La tabella seguente elenca i tipi di storage supportati su AIX.

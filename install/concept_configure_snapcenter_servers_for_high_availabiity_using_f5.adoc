@@ -32,6 +32,7 @@ Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/snapcenter-cmdl
 
 
 
+[[additional-f5-configuration-information]]
 == Ulteriori informazioni sulla configurazione di F5
 
 * Dopo aver installato e configurato SnapCenter per la disponibilità elevata, modificare il collegamento al desktop di SnapCenter in modo che punti all'IP del cluster F5.

@@ -19,6 +19,7 @@ image::../media/upgrade_workflow.gif[flusso di lavoro di aggiornamento di SnapCe
 
 
 
+[[supported-upgrade-paths]]
 == Percorsi di upgrade supportati
 
 |===

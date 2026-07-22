@@ -18,6 +18,7 @@ NOTE: Non è possibile ripristinare le risorse plug-in personalizzate aggiunte m
 
 
 
+[[complete-resource-restore]]
 == Ripristino completo delle risorse
 
 * Ripristina tutti i volumi, le qtree e le LUN di una risorsa
@@ -28,6 +29,7 @@ NOTE: Se la risorsa contiene volumi o qtree, gli Snapshot acquisiti dopo la Snap
 
 
 
+[[file-level-restore]]
 == Ripristino a livello di file
 
 * Ripristina i file da volumi, qtree o directory

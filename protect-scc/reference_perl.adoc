@@ -32,10 +32,12 @@ Le operazioni disponibili sono
 
 
 
+[[general-plug-in-handling]]
 == Gestione generale dei plug-in
 
 
 
+[[using-results-object]]
 === Utilizzo dell'oggetto Results
 
 Ogni operazione di plug-in personalizzata deve definire l'oggetto Results. Questo oggetto invia messaggi, codice di uscita, stdout e stderr all'agente host.
@@ -54,6 +56,7 @@ Restituzione dell'oggetto Results:
  return $result;
 
 
+[[preserving-data-consistency]]
 === Preservare la coerenza dei dati
 
 È possibile conservare i dati tra le operazioni (eccetto la pulizia) come parte della stessa esecuzione del flusso di lavoro. Ciò avviene utilizzando coppie chiave-valore. Le coppie chiave-valore dei dati vengono impostate come parte dell'oggetto risultato e vengono conservate e disponibili nelle successive operazioni dello stesso flusso di lavoro.
@@ -103,6 +106,7 @@ Applicare i messaggi all'oggetto Results:
  $result->{message} = \@message_a;
 
 
+[[using-plug-in-stubs]]
 === Utilizzo di stub plug-in
 
 I plug-in personalizzati devono esporre gli stub plug-in. Questi sono i metodi che il server SnapCenter chiama, in base a un flusso di lavoro.
@@ -232,6 +236,7 @@ Questo stub viene utilizzato da SnapCenter per gestire i dettagli della versione
 |===
 
 
+[[plug-in-package-information]]
 === Informazioni sul pacchetto plug-in
 
 Ogni plug-in deve avere le seguenti informazioni:
@@ -258,6 +263,7 @@ my %config_h = ();
 ....
 
 
+[[operations]]
 === Operazioni
 
 È possibile codificare diverse operazioni come setenv, Version, Quiesce e Unquiesce, supportate dai plug-in personalizzati.

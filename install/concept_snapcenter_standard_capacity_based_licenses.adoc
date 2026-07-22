@@ -34,6 +34,7 @@ SnapCenter calcola automaticamente l'utilizzo della capacità una volta al giorn
 
 
 
+[[step-1-calculate-capacity-requirements]]
 === Fase 1: Calcolo dei requisiti di capacità
 
 Prima di ottenere una licenza SnapCenter basata sulla capacità, è necessario calcolare la capacità di un host che deve essere gestito da SnapCenter.
@@ -67,6 +68,7 @@ Tuttavia, se si desidera proteggere solo 2 TB dei 5 TB di capacità totale utili
 
 
 
+[[step-2-retrieve-the-serial-number-of-capacity-based-license]]
 === Fase 2: Recuperare il numero di serie della licenza basata sulla capacità
 
 Il numero di serie della licenza SnapCenter basata sulla capacità è disponibile nella conferma dell'ordine o nella documentazione; tuttavia, se non si dispone di questo numero di serie, è possibile recuperarlo dal sito del supporto NetApp.
@@ -89,6 +91,7 @@ Viene visualizzato il numero di serie di nove cifre della licenza SnapCenter, co
 
 
 
+[[step-3-generate-a-netapp-license-file]]
 === Fase 3: Generare un file di licenza NetApp
 
 Se non si desidera inserire le credenziali del sito di supporto NetApp e il numero di serie della licenza SnapCenter nell'interfaccia grafica di SnapCenter o se non si dispone dell'accesso a Internet al sito di supporto NetApp da SnapCenter, è possibile generare un file di licenza NetApp (NLF). È quindi possibile scaricare e memorizzare il file in una posizione accessibile dall'host SnapCenter.
@@ -110,6 +113,7 @@ Se non si desidera inserire le credenziali del sito di supporto NetApp e il nume
 
 
 
+[[step-4-add-capacity-based-license]]
 === Fase 4: Aggiunta di una licenza basata sulla capacità
 
 Se si utilizza SnapCenter con piattaforme ONTAP Select o Cloud Volumes ONTAP, è necessario installare una o più licenze SnapCenter basate sulla capacità.

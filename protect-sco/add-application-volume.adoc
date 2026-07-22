@@ -36,6 +36,7 @@ NOTE: I volumi applicativi supportano solo connessioni dirette NFS e iSCSI.
 
 
 
+[[modify-application-volume]]
 == Modificare il volume dell'applicazione
 
 Se non vengono creati backup, è possibile modificare tutti i valori specificati durante l'aggiunta del volume dell'applicazione. Se il backup viene creato, è possibile modificare solo i dettagli del sistema di storage.
@@ -49,6 +50,7 @@ Se non vengono creati backup, è possibile modificare tutti i valori specificati
 
 
 
+[[delete-application-volume]]
 == Eliminare il volume dell'applicazione
 
 Quando si elimina un volume dell'applicazione, se sono presenti backup associati al volume dell'applicazione, il volume dell'applicazione viene messo in modalità di manutenzione e non vengono creati nuovi backup e non vengono conservati backup precedenti. Se non sono associati backup, tutti i metadati verranno eliminati.

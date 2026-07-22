@@ -15,12 +15,14 @@ summary: È possibile ripristinare un database SQL Server da una copia di backup
 
 
 
+[[sources-for-a-restore-operation]]
 == Origini di un'operazione di ripristino
 
 È possibile ripristinare i database dallo storage primario o secondario.
 
 
 
+[[destinations-for-a-restore-operation]]
 == Destinazioni per un'operazione di ripristino
 
 È possibile ripristinare i database in diverse destinazioni:

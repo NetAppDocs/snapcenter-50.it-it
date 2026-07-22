@@ -15,6 +15,7 @@ Un plug-in personalizzato Java interagisce direttamente con un'applicazione come
 
 
 
+[[limitations]]
 == Limitazioni
 
 Esistono alcune limitazioni che è necessario tenere presenti durante lo sviluppo di un plug-in utilizzando il linguaggio di programmazione Java.
@@ -59,12 +60,14 @@ Meno di un'ora
 |===
 
 
+[[reason-for-java-limitations]]
 === Motivo delle limitazioni Java
 
 L'obiettivo dell'agente SnapCenter è garantire un'integrazione applicativa continua, sicura e solida. Grazie al supporto dei plug-in Java, è possibile che i plug-in introducano perdite di memoria e altri problemi indesiderati. Questi problemi sono difficili da affrontare, soprattutto quando l'obiettivo è quello di mantenere le cose semplici da utilizzare. Se la complessità di un plug-in non è troppo complessa, è molto meno probabile che gli sviluppatori abbiano introdotto gli errori. Il pericolo che il plug-in Java venga eseguito nella stessa JVM dell'agente SnapCenter. In caso di crash o perdita di memoria, il plug-in potrebbe avere un impatto negativo sull'Agent.
 
 
 
+[[supported-methods]]
 == Metodi supportati
 
 |===
@@ -171,12 +174,14 @@ Come parte della raccolta di dati ASUP in ogni flusso di lavoro come Backup/Rest
 |===
 
 
+[[tutorial]]
 == Esercitazione
 
 In questa sezione viene descritto come creare un plug-in personalizzato utilizzando il linguaggio di programmazione Java.
 
 
 
+[[setting-up-eclipse]]
 === Configurare l'eclissi
 
 . Creare un nuovo progetto Java "TutorialPlugin" in Eclipse
@@ -236,6 +241,7 @@ public class TutorialPlugin extends AbstractPlugin {
 
 
 
+[[implementing-the-required-methods]]
 === Implementazione dei metodi richiesti
 
 Quiesce, unquiesce e version sono metodi obbligatori che ogni plug-in Java personalizzato deve implementare.
@@ -282,6 +288,7 @@ Il metodo viene passato in un oggetto di contesto. Contiene più assistenti, ad 
 
 
 
+[[using-result-object]]
 === Utilizzo dell'oggetto risultato
 
 L'oggetto Result contiene i seguenti parametri:
@@ -355,6 +362,7 @@ Result result = Result.builder()
 ....
 
 
+[[versionresult]]
 === VersionResult
 
 VersionResult informa il server SnapCenter della versione del plug-in. Poiché eredita anche dal risultato, contiene i parametri config, exitCode, stdout, stderr e messaggi.
@@ -410,6 +418,7 @@ VersionResult result = VersionResult.builder()
 ....
 
 
+[[using-the-context-object]]
 === Utilizzo dell'oggetto di contesto
 
 L'oggetto Context fornisce i seguenti metodi:
@@ -433,12 +442,14 @@ Restituisce la configurazione inviata dal server SnapCenter all'agente.
 |===
 
 
+[[workflow-id]]
 === ID flusso di lavoro
 
 L'ID del flusso di lavoro è l'id utilizzato dal server SnapCenter per fare riferimento a un flusso di lavoro in esecuzione specifico.
 
 
 
+[[config]]
 === Config
 
 Questo oggetto contiene la maggior parte dei parametri che un utente può impostare nella configurazione sul server SnapCenter. Tuttavia, per motivi di sicurezza, alcuni di questi parametri potrebbero essere filtrati sul lato server. Di seguito viene riportato un esempio su come accedere alla configurazione e recuperare un parametro:
@@ -452,6 +463,7 @@ config.getParameter("PLUGIN_MANDATORY_PARAMETER");
 
 
 
+[[exporting-the-plug-in]]
 === Esportazione del plug-in
 
 È necessario esportare il plug-in per installarlo sull'host SnapCenter.

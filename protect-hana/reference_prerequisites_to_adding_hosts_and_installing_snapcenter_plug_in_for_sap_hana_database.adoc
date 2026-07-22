@@ -28,6 +28,7 @@ NOTE: IBM Java non è supportato.
 
 
 
+[[windows-hosts]]
 == Host Windows
 
 * È necessario disporre di un utente di dominio con privilegi di amministratore locale con autorizzazioni di accesso locale sull'host remoto.
@@ -44,6 +45,7 @@ https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src
 
 
 
+[[linux-hosts]]
 == Host Linux
 
 * È necessario aver attivato la connessione SSH basata su password per l'utente root o non root.
@@ -60,6 +62,7 @@ https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src
 
 
 
+[[supplemental-commands]]
 == Comandi supplementari
 
 Per eseguire un comando supplementare sul plug-in SnapCenter per SAP HANA, è necessario includerlo nel `allowed_commands.config` file.

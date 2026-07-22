@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare prescritture e postscript personalizzati come 
 
 
 
+[[supported-script-types]]
 == Tipi di script supportati
 
 Per Windows sono supportati i seguenti tipi di script:
@@ -37,6 +38,7 @@ NOTE: Insieme alla shell bash di default sono supportate anche altre shell come 
 
 
 
+[[script-path]]
 == Percorso dello script
 
 Tutte le prescritture e i postscript eseguiti come parte delle operazioni SnapCenter, su sistemi storage non virtualizzati e virtualizzati, vengono eseguiti sull'host plug-in.
@@ -55,6 +57,7 @@ NOTE: Il percorso dello script viene convalidato al momento dell'esecuzione.
 
 
 
+[[where-to-specify-scripts]]
 == Dove specificare gli script
 
 Gli script sono specificati nelle policy di backup. Quando viene avviato un processo di backup, il criterio associa automaticamente lo script alle risorse di cui viene eseguito il backup. Quando si crea un criterio di backup, è possibile specificare gli argomenti prescrittt e postscript.
@@ -64,12 +67,14 @@ NOTE: Non è possibile specificare più script.
 
 
 
+[[script-timeouts]]
 == Timeout dello script
 
 Per impostazione predefinita, il timeout è impostato su 60 secondi. È possibile modificare il valore di timeout.
 
 
 
+[[script-output]]
 == Output dello script
 
 La directory predefinita per i file di output delle prescrizioni e dei post-script di Windows è Windows System32.

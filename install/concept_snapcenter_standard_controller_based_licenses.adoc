@@ -29,6 +29,7 @@ Per informazioni sulle licenze richieste, vedere link:../install/concept_snapcen
 
 
 
+[[step-1-verify-if-the-snapmanager-suite-license-is-installed]]
 == Fase 1: Verificare che la licenza della suite SnapManager sia installata
 
 È possibile utilizzare l'interfaccia grafica di SnapCenter per verificare se una licenza della suite SnapManager è installata su sistemi di storage primari FAS, AFF o ASA e per identificare i sistemi di storage che potrebbero richiedere licenze della suite SnapManager. Le licenze della suite SnapManager sono valide solo per SVM FAS, AFF e ASA o per cluster su sistemi storage primari.
@@ -61,6 +62,7 @@ La colonna Controller License (licenza controller) visualizza il seguente stato:
 
 
 
+[[step-2-identify-the-licenses-installed-on-the-controller]]
 == Fase 2: Identificare le licenze installate sul controller
 
 È possibile utilizzare la riga di comando ONTAP per visualizzare tutte le licenze installate sul controller. È necessario essere un amministratore del cluster nel sistema FAS, AFF o ASA.
@@ -108,6 +110,7 @@ Nell'esempio, la licenza SnapManagerSuite è installata, pertanto non sono richi
 
 
 
+[[step-3-retrieve-the-controller-serial-number]]
 == Fase 3: Recuperare il numero di serie del controller
 
 Per recuperare il numero di serie della licenza basata su controller, è necessario disporre del numero di serie del controller. È possibile recuperare il numero di serie del controller utilizzando la riga di comando ONTAP. È necessario essere un amministratore del cluster nel sistema FAS, AFF o ASA.
@@ -160,6 +163,7 @@ All-Flash Optimized: false
 
 
 
+[[step-4-retrieve-the-serial-number-of-the-controller-based-license]]
 == Fase 4: Recuperare il numero di serie della licenza basata su controller
 
 Se si utilizza lo storage FAS o AFF, è possibile recuperare la licenza basata su controller SnapCenter dal sito di supporto NetApp prima di poterla installare utilizzando la riga di comando ONTAP.
@@ -187,6 +191,7 @@ Viene visualizzato un elenco di licenze per il controller specificato.
 
 
 
+[[step-5-add-controller-based-license]]
 == Fase 5: Aggiungere una licenza basata su controller
 
 È possibile utilizzare la riga di comando ONTAP per aggiungere una licenza basata su controller SnapCenter quando si utilizzano sistemi FAS, AFF o ASA e si dispone di una licenza SnapCenter o SnapManagerSuite.
@@ -218,6 +223,7 @@ Questo comando è disponibile a livello di privilegio admin.
 
 
 
+[[step-6-remove-the-trial-license]]
 == Fase 6: Rimuovere la licenza di prova
 
 Se si utilizza una licenza standard SnapCenter basata su controller e si deve rimuovere la licenza di prova basata su capacità (numero di serie che termina con "`50`"), utilizzare i comandi MySQL per rimuovere manualmente la licenza di prova. La licenza di prova non può essere eliminata utilizzando l'interfaccia grafica di SnapCenter.

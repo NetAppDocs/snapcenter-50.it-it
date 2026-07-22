@@ -18,6 +18,7 @@ NOTE: In una configurazione di Flex ASM, non è possibile eseguire l'operazione 
 
 
 
+[[mount-a-database-backup]]
 == Montare un backup del database
 
 Se si desidera accedere ai file del backup, è necessario montare manualmente un backup del database.
@@ -85,6 +86,7 @@ Le informazioni relative ai parametri che possono essere utilizzati con il coman
 
 
 
+[[unmount-a-database-backup]]
 == Smontare un backup del database
 
 È possibile smontare manualmente un backup del database montato quando non si desidera più accedere ai file sul backup.

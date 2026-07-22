@@ -28,6 +28,7 @@ NOTE: Le opzioni Backup Now (Backup ora), Restore (Ripristina), Manage Backup (G
 
 
 
+[[how-snapcenter-backs-up-databases]]
 == Come SnapCenter esegue il backup dei database
 
 SnapCenter utilizza la tecnologia Snapshot per eseguire il backup dei database di SQL Server che risiedono su LUN o VMDK. SnapCenter crea il backup creando istantanee dei database.

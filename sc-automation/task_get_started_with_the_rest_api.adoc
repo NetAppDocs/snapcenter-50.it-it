@@ -15,6 +15,7 @@ summary: 'L"accesso all"API offre una prospettiva prima di iniziare a utilizzarl
 
 
 
+[[hello-world]]
 == Ciao mondo
 
 È possibile eseguire un semplice comando sul sistema per iniziare a utilizzare l'API REST di SnapCenter e verificarne la disponibilità.

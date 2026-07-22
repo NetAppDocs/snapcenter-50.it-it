@@ -59,6 +59,7 @@ Deselezionare la casella di controllo se si desidera assegnare il DBID del datab
 
 
 
+[[clone-a-pluggable-database]]
 == Clonare un database collegabile
 
 È possibile clonare un database collegabile (PDB) su un CDB di destinazione diverso o uguale sullo stesso host o su un host alternativo. È inoltre possibile ripristinare il PDB clonato a un SCN desiderato o a una data e un'ora.
@@ -93,6 +94,7 @@ Deselezionare la casella di controllo se si desidera assegnare il DBID del datab
 
 
 
+[[split-an-oracle-database-clone]]
 == Suddividi un clone di un database Oracle
 
 È possibile utilizzare SnapCenter per separare una risorsa clonata dalla risorsa principale. Il clone diviso diventa indipendente dalla risorsa padre.
@@ -107,6 +109,7 @@ Deselezionare la casella di controllo se si desidera assegnare il DBID del datab
 
 
 
+[[split-clone-of-a-pluggable-database]]
 == Clone separato di un database collegabile
 
 È possibile utilizzare SnapCenter per suddividere un database clonato collegabile (PDB).

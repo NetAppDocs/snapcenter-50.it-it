@@ -25,12 +25,14 @@ link:concept_develop_a_plug_in_for_your_application.html["Sviluppare un plug-in 
 
 
 
+[[general]]
 == Generale
 
 Se si utilizza iSCSI, il servizio iSCSI dovrebbe essere in esecuzione.
 
 
 
+[[sha512-hash]]
 == Hash SHA512
 
 * Per i plug-in personalizzati forniti da NetApp, assicurarsi di aver aggiunto l'hash SHA512 del file del plug-in personalizzato al file _custom_plugin_checksum_list_.
@@ -69,6 +71,7 @@ Di seguito è riportato un esempio di una voce di hash SHA512 nel file checksum:
 
 
 
+[[windows-hosts]]
 == Host Windows
 
 * È necessario disporre di un utente di dominio con privilegi di amministratore locale con autorizzazioni di accesso locale sull'host remoto.
@@ -77,6 +80,7 @@ Di seguito è riportato un esempio di una voce di hash SHA512 nel file checksum:
 
 
 
+[[linux-hosts]]
 == Host Linux
 
 * È necessario aver attivato la connessione SSH basata su password per l'utente root o non root.

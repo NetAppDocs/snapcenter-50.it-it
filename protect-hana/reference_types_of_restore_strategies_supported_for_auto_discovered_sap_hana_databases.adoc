@@ -15,6 +15,7 @@ summary: È necessario definire una strategia prima di poter eseguire correttame
 
 
 
+[[complete-resource-restore]]
 == Ripristino completo delle risorse
 
 * Ripristina tutti i volumi, le qtree e le LUN di una risorsa
@@ -30,6 +31,7 @@ NOTE: Se la risorsa contiene volumi o qtree, gli Snapshot acquisiti dopo la Snap
 
 
 
+[[tenant-database]]
 == Database tenant
 
 * Ripristina il database tenant

@@ -23,6 +23,7 @@ Quando il plug-in per i file system Unix è installato nel proprio ambiente, è 
 
 
 
+[[supported-configurations]]
 == Configurazioni supportate
 
 |===
@@ -81,6 +82,7 @@ sì
 |===
 
 
+[[limitations]]
 == Limitazioni
 
 * La combinazione di RDM e dischi virtuali in un gruppo di volumi non è supportata.
